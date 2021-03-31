@@ -17,5 +17,5 @@ post '/roll' do
   end
 
   content_type :json
-  response.to_json
+  { body: response }.to_json
 end
