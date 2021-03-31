@@ -1,4 +1,5 @@
 require 'sinatra'
+require "sinatra/json"
 require_relative '../services/initiative.rb'
 
 post '/roll' do
@@ -16,6 +17,5 @@ post '/roll' do
     }
   end
 
-  content_type :json
-  { body: response }.to_json
+  json response
 end
