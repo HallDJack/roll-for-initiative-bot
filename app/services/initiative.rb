@@ -22,7 +22,8 @@ class Initiative
 1d20 - Sara
   TEAM
 
-  def self.roll(input_string)
+  def self.roll(type)
+    input_string = type == 'TEAM' ? TEAM : SOLO
     lines = input_string.split("\n")
     output = []
     lines.each do |line|

@@ -7,7 +7,7 @@ post '/roll' do
   if ['SOLO', 'TEAM'].include?(type)
     response = {
       response_type: 'in_channel',
-      text: Initiative.roll("Initiative::#{type}".constantize)
+      text: Initiative.roll(type)
     }
   else
     response = {
