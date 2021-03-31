@@ -2,12 +2,12 @@ require 'sinatra'
 require_relative '../services/initiative.rb'
 
 post '/roll' do
-  type = params['text']&.downcase
+  type = params['text']&.upcase
 
-  if ['solo', 'team'].include?(type)
+  if ['SOLO', 'TEAM'].include?(type)
     response = {
       response_type: 'in_channel',
-      text: Initiative.roll(type)
+      text: Initiative.roll("Initiative::#{type}".constantize)
     }
   else
     response = {
