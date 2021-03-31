@@ -1,4 +1,5 @@
 require 'sinatra'
+require_relative '../services/initiative.rb'
 
 post '/roll' do
   type = params['text']&.downcase
