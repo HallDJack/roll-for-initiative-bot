@@ -5,22 +5,22 @@ class Initiative
 1d20+10 - Justin with +10 Fiber Suit of Haste
 1d20+9 - Julia with +9 Chalice of Wine
 1d20+5 - Stephanie with +5 Product Warhammer
-1d20+5 - Vinny with the +5 Furious Fuel Injectors of Fastidity
-1d20 - Payments w/ Sara & Jack
-1d20 - Geofencing w/ Paul & Bhadresh
-  TEAM
-
-  SOLO = <<-TEAM
-1d20+15 - Dan with +15 Lucky Fishing Hat
-1d20+10 - Justin with +10 Fiber Suit of Haste
-1d20+9 - Julia with +9 Chalice of Wine
-1d20+5 - Stephanie with +5 Product Warhammer
-1d20+5 - Vinny with the +5 Furious Fuel Injectors of Fastidity
 1d20 - Jack
 1d20 - Bhadresh
 1d20 - Paul
 1d20 - Sara
   TEAM
+
+  SOLO = <<-SOLO
+1d20+15 - Dan with +15 Lucky Fishing Hat
+1d20+10 - Justin with +10 Fiber Suit of Haste
+1d20+9 - Julia with +9 Chalice of Wine
+1d20+5 - Stephanie with +5 Product Warhammer
+1d20 - Jack
+1d20 - Bhadresh
+1d20 - Paul
+1d20 - Sara
+  SOLO
 
   def self.roll(type)
     input_string = type == 'TEAM' ? TEAM : SOLO
