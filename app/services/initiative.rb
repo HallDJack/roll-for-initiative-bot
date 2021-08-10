@@ -9,6 +9,7 @@ class Initiative
 1d20 - Bhadresh
 1d20 - Paul
 1d20 - Sara
+1d20 - Chris
   TEAM
 
   SOLO = <<-SOLO
@@ -20,6 +21,7 @@ class Initiative
 1d20 - Bhadresh
 1d20 - Paul
 1d20 - Sara
+1d20 - Chris
   SOLO
 
   def self.roll(type)
