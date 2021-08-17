@@ -41,7 +41,7 @@ class Initiative
       map(&:last). # grab just the groups
       map(&:shuffle). # shuffle members within each group of duplicates (so the order of the duplicates is random)
       flatten(1). # flatten back to the ungrouped structure
-      map { |team_or_member, total_roll| "#{team_or_member} - #{total_roll}" }.
-      join("\n")
+      map { |team_or_member, total_roll| "#{team_or_member} - #{total_roll}" }. # generate each output line
+      join("\n") # bind the output lines together
   end
 end
