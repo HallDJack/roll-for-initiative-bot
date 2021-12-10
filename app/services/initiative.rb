@@ -6,7 +6,6 @@ class Initiative
 1d20+9 - Julia with +9 Chalice of Wine
 1d20+5 - Stephanie with +5 Product Warhammer
 1d20 - Jack
-1d20 - Bhadresh
 1d20 - Paul
 1d20 - Sara
 1d20 - Chris
@@ -19,7 +18,6 @@ class Initiative
 1d20+9 - Julia with +9 Chalice of Wine
 1d20+5 - Stephanie with +5 Product Warhammer
 1d20 - Jack
-1d20 - Bhadresh
 1d20 - Paul
 1d20 - Sara
 1d20 - Chris
