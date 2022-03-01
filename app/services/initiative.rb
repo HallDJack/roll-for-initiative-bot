@@ -10,6 +10,7 @@ class Initiative
 1d20 - Sara
 1d20 - Chris
 1d20 - Mary
+1d20 - Kim
   TEAM
 
   SOLO = <<-SOLO
@@ -22,6 +23,7 @@ class Initiative
 1d20 - Sara
 1d20 - Chris
 1d20 - Mary
+1d20 - Kim
   SOLO
 
   def self.roll(type)
