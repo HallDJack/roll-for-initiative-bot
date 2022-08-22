@@ -18,6 +18,7 @@ class Initiative
 1d20+5 - Stephanie with +5 Product Warhammer
 1d20 - Mary
 1d20 - Kim
+1d20 - Jen
   PRODUCT
   TEAM = { 'Engineering' => DEV, 'Product' => PRODUCT }
 
@@ -37,6 +38,7 @@ class Initiative
 1d20 - Adam
 1d20 - Mary
 1d20 - Kim
+1d20 - Jen
   EVERYONE
 
   SOLO = { 'Everyone' => EVERYONE }
