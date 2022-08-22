@@ -10,6 +10,7 @@ class Initiative
 1d20 - Harsh
 1d20 - E'lon
 1d20 - Preet
+1d20 - Adam
   DEV
   PRODUCT = <<-PRODUCT
 1d20+10 - Justin with +10 Fiber Suit of Haste
@@ -17,6 +18,7 @@ class Initiative
 1d20+5 - Stephanie with +5 Product Warhammer
 1d20 - Mary
 1d20 - Kim
+1d20 - Jen
   PRODUCT
   TEAM = { 'Engineering' => DEV, 'Product' => PRODUCT }
 
@@ -33,8 +35,10 @@ class Initiative
 1d20 - Harsh
 1d20 - E'lon
 1d20 - Preet
+1d20 - Adam
 1d20 - Mary
 1d20 - Kim
+1d20 - Jen
   EVERYONE
 
   SOLO = { 'Everyone' => EVERYONE }
