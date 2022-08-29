@@ -1,7 +1,6 @@
 class Initiative
 
   DEV = <<-DEV
-1d20+15 - Dan with +15 Lucky Fishing Hat
 1d20 - Jack
 1d20 - Paul
 1d20 - Sara
@@ -13,9 +12,9 @@ class Initiative
 1d20 - Adam
   DEV
   PRODUCT = <<-PRODUCT
-1d20+10 - Justin with +10 Fiber Suit of Haste
-1d20+9 - Sterling with +9 Pivot Table of Truth
-1d20+5 - Stephanie with +5 Product Warhammer
+1d20 - Justin
+1d20 - Sterling
+1d20 - Stephanie
 1d20 - Mary
 1d20 - Kim
 1d20 - Jen
@@ -23,10 +22,9 @@ class Initiative
   TEAM = { 'Engineering' => DEV, 'Product' => PRODUCT }
 
   EVERYONE = <<-EVERYONE
-1d20+15 - Dan with +15 Lucky Fishing Hat
-1d20+10 - Justin with +10 Fiber Suit of Haste
-1d20+9 - Sterling with +9 Pivot Table of Truth
-1d20+5 - Stephanie with +5 Product Warhammer
+1d20 - Justin
+1d20 - Sterling
+1d20 - Stephanie
 1d20 - Jack
 1d20 - Paul
 1d20 - Sara
