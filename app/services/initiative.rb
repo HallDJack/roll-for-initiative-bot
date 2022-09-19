@@ -12,6 +12,7 @@ class Initiative
 1d20 - Adam
   DEV
   PRODUCT = <<-PRODUCT
+1d20 - Michael
 1d20 - Justin
 1d20 - Sterling
 1d20 - Stephanie
@@ -22,6 +23,7 @@ class Initiative
   TEAM = { 'Engineering' => DEV, 'Product' => PRODUCT }
 
   EVERYONE = <<-EVERYONE
+1d20 - Michael
 1d20 - Justin
 1d20 - Sterling
 1d20 - Stephanie
