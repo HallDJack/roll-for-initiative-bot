@@ -13,7 +13,6 @@ class Initiative
   DEV
   PRODUCT = <<-PRODUCT
 1d20 - Michael
-1d20 - Justin
 1d20 - Sterling
 1d20 - Stephanie
 1d20 - Mary
@@ -24,7 +23,6 @@ class Initiative
 
   EVERYONE = <<-EVERYONE
 1d20 - Michael
-1d20 - Justin
 1d20 - Sterling
 1d20 - Stephanie
 1d20 - Jack
