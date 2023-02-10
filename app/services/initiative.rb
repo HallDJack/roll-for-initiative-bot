@@ -11,6 +11,7 @@ class Initiative
 1d20 - Preet
 1d20 - Adam
 1d20 - Wes
+1d20 - Scott
   DEV
   PRODUCT = <<-PRODUCT
 1d20 - Michael
@@ -34,6 +35,7 @@ class Initiative
 1d20 - Preet
 1d20 - Adam
 1d20 - Wes
+1d20 - Scott
 1d20 - Mary
 1d20 - Kim
 1d20 - Jen
