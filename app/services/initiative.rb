@@ -11,10 +11,10 @@ class Initiative
 1d20 - Preet
 1d20 - Adam
 1d20 - Wes
+1d20 - Scott
   DEV
   PRODUCT = <<-PRODUCT
 1d20 - Michael
-1d20 - Sterling
 1d20 - Stephanie
 1d20 - Mary
 1d20 - Kim
@@ -24,7 +24,6 @@ class Initiative
 
   EVERYONE = <<-EVERYONE
 1d20 - Michael
-1d20 - Sterling
 1d20 - Stephanie
 1d20 - Jack
 1d20 - Paul
@@ -36,6 +35,7 @@ class Initiative
 1d20 - Preet
 1d20 - Adam
 1d20 - Wes
+1d20 - Scott
 1d20 - Mary
 1d20 - Kim
 1d20 - Jen
