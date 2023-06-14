@@ -9,7 +9,7 @@ class Initiative
 1d20 - Harsh
 1d20 - E'lon
 1d20 - Preet
-1d20 - Adam
+1d20 - Adam Glover
 1d20 - Wes
 1d20 - Scott
   DEV
@@ -20,6 +20,7 @@ class Initiative
 1d20 - Kim
 1d20 - Jen
 1d20 - Jared
+1d20 - Adam Leon
   PRODUCT
   TEAM = { 'Engineering' => DEV, 'Product' => PRODUCT }
 
@@ -34,13 +35,14 @@ class Initiative
 1d20 - Harsh
 1d20 - E'lon
 1d20 - Preet
-1d20 - Adam
+1d20 - Adam Glover
 1d20 - Wes
 1d20 - Scott
 1d20 - Mary
 1d20 - Kim
 1d20 - Jen
 1d20 - Jared
+1d20 - Adam Leon
   EVERYONE
 
   SOLO = { 'Everyone' => EVERYONE }
