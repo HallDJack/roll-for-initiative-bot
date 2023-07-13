@@ -12,7 +12,6 @@ class Initiative
 1d20 - Adam Glover
 1d20 - Wes
 1d20 - Scott
-1d20 - Jim
   DEV
   PRODUCT = <<-PRODUCT
 1d20 - Michael
@@ -44,7 +43,6 @@ class Initiative
 1d20 - Jen
 1d20 - Jared
 1d20 - Adam Leon
-1d20 - Jim
   EVERYONE
 
   SOLO = { 'Everyone' => EVERYONE }
