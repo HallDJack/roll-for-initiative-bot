@@ -2,41 +2,45 @@ class Initiative
 
   DEV = <<-DEV
 1d20 - Jack
-1d20 - Paul
 1d20 - Sara
 1d20 - Chris
 1d20 - Nick
 1d20 - Harsh
 1d20 - E'lon
 1d20 - Preet
-1d20 - Adam
+1d20 - Adam Glover
+1d20 - Wes
+1d20 - Jim
   DEV
   PRODUCT = <<-PRODUCT
 1d20 - Michael
-1d20 - Sterling
 1d20 - Stephanie
 1d20 - Mary
 1d20 - Kim
 1d20 - Jen
+1d20 - Jared
+1d20 - Adam Leon
   PRODUCT
   TEAM = { 'Engineering' => DEV, 'Product' => PRODUCT }
 
   EVERYONE = <<-EVERYONE
 1d20 - Michael
-1d20 - Sterling
 1d20 - Stephanie
 1d20 - Jack
-1d20 - Paul
 1d20 - Sara
 1d20 - Chris
 1d20 - Nick
 1d20 - Harsh
 1d20 - E'lon
 1d20 - Preet
-1d20 - Adam
+1d20 - Adam Glover
+1d20 - Wes
 1d20 - Mary
 1d20 - Kim
 1d20 - Jen
+1d20 - Jared
+1d20 - Adam Leon
+1d20 - Jim
   EVERYONE
 
   SOLO = { 'Everyone' => EVERYONE }
