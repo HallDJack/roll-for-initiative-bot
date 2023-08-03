@@ -2,7 +2,6 @@ class Initiative
 
   DEV = <<-DEV
 1d20 - Jack
-1d20 - Paul
 1d20 - Sara
 1d20 - Chris
 1d20 - Nick
@@ -11,7 +10,6 @@ class Initiative
 1d20 - Preet
 1d20 - Adam Glover
 1d20 - Wes
-1d20 - Scott
 1d20 - Jim
   DEV
   PRODUCT = <<-PRODUCT
@@ -29,7 +27,6 @@ class Initiative
 1d20 - Michael
 1d20 - Stephanie
 1d20 - Jack
-1d20 - Paul
 1d20 - Sara
 1d20 - Chris
 1d20 - Nick
@@ -38,7 +35,6 @@ class Initiative
 1d20 - Preet
 1d20 - Adam Glover
 1d20 - Wes
-1d20 - Scott
 1d20 - Mary
 1d20 - Kim
 1d20 - Jen
