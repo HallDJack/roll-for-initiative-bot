@@ -61,7 +61,7 @@ class Initiative
   SOLO = { 'Everyone' => EVERYONE }
 
   def self.roll(type)
-    input = type == 'TEAM' ? TEAM : SOLO
+    input = type == 'GROUP' ? TEAM : SOLO
     input.map do |name, input_string|
       lines = input_string.split("\n")
       output = []
