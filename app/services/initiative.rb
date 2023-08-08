@@ -1,8 +1,6 @@
 class Initiative
 
   DEV = <<-DEV
-1d20 - Adam Glover
-1d20 - Chris
 1d20 - David
 1d20 - E'lon
 1d20 - Franco
@@ -14,20 +12,27 @@ class Initiative
 1d20 - Sara
 1d20 - Wes
   DEV
+  PLATFORM = <<-PLATFORM
+1d20 - Adam Glover
+1d20 - Chris
+  PLATFORM
+  DESIGN = <<-DESIGN
+1d20 - Adam Leon
+  DESIGN
   PRODUCT = <<-PRODUCT
 1d20 - Stephanie
 1d20 - Mary
 1d20 - Kim
 1d20 - Jen
 1d20 - Jared
-1d20 - Adam Leon
   PRODUCT
   OTHER = <<-OTHER
 1d20 - Michael
 1d20 - Jack
 1d20 - Jim
+  OTHER
   
-  TEAM = { 'Engineering' => DEV, 'Product' => PRODUCT, 'Other' => OTHER }
+  TEAM = { 'Engineering' => DEV, 'Platform' => PLATFORM, 'Design' => DESIGN, 'Product' => PRODUCT, 'Other' => OTHER }
 
   EVERYONE = <<-EVERYONE
 1d20 - Michael
