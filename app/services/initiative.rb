@@ -1,19 +1,20 @@
 class Initiative
 
   DEV = <<-DEV
-1d20 - Jack
-1d20 - Sara
-1d20 - Chris
-1d20 - Nick
-1d20 - Harsh
-1d20 - E'lon
-1d20 - Preet
 1d20 - Adam Glover
+1d20 - Chris
+1d20 - David
+1d20 - E'lon
+1d20 - Franco
+1d20 - Harsh
+1d20 - James
+1d20 - Jose
+1d20 - Nick
+1d20 - Preet
+1d20 - Sara
 1d20 - Wes
-1d20 - Jim
   DEV
   PRODUCT = <<-PRODUCT
-1d20 - Michael
 1d20 - Stephanie
 1d20 - Mary
 1d20 - Kim
@@ -21,7 +22,12 @@ class Initiative
 1d20 - Jared
 1d20 - Adam Leon
   PRODUCT
-  TEAM = { 'Engineering' => DEV, 'Product' => PRODUCT }
+  OTHER = <<-OTHER
+1d20 - Michael
+1d20 - Jack
+1d20 - Jim
+  
+  TEAM = { 'Engineering' => DEV, 'Product' => PRODUCT, 'Other' => OTHER }
 
   EVERYONE = <<-EVERYONE
 1d20 - Michael
@@ -41,6 +47,10 @@ class Initiative
 1d20 - Jared
 1d20 - Adam Leon
 1d20 - Jim
+1d20 - James
+1d20 - Jose
+1d20 - Franco
+1d20 - David
   EVERYONE
 
   SOLO = { 'Everyone' => EVERYONE }
