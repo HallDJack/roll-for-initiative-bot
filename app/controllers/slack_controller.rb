@@ -13,7 +13,7 @@ post '/roll' do
   else
     response = {
       response_type: 'ephemeral',
-      text: 'Sorry, that did not work. Please try again. Valid parameters are "solo" and "team".'
+      text: 'Sorry, that did not work. Please try again. Valid parameters are "solo" and "group".'
     }
   end
 
