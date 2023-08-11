@@ -30,6 +30,7 @@ class Initiative
 1d20 - Michael
 1d20 - Jack
 1d20 - Jim
+1d20 - Ryan
   OTHER
   
   TEAM = { 'Engineering' => DEV, 'Platform' => PLATFORM, 'Design' => DESIGN, 'Product' => PRODUCT, 'Other' => OTHER }
