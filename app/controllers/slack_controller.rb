@@ -5,7 +5,7 @@ require_relative '../services/initiative.rb'
 post '/roll' do
   type = params['text']&.upcase
 
-  if ['SOLO', 'TEAM'].include?(type)
+  if ['SOLO', 'GROUP'].include?(type)
     response = {
       response_type: 'in_channel',
       text: Initiative.roll(type)
