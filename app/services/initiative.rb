@@ -5,7 +5,6 @@ class Initiative
 1d20 - E'lon
 1d20 - Franco
 1d20 - Harsh
-1d20 - James
 1d20 - Jose
 1d20 - Nick
 1d20 - Preet
@@ -30,7 +29,7 @@ class Initiative
 1d20 - Michael
 1d20 - Jack
 1d20 - Jim
-1d20 - Ryan
+1d20 - Eftiar
   OTHER
   
   TEAM = { 'Engineering' => DEV, 'Platform' => PLATFORM, 'Design' => DESIGN, 'Product' => PRODUCT, 'Other' => OTHER }
@@ -53,7 +52,6 @@ class Initiative
 1d20 - Jared
 1d20 - Adam Leon
 1d20 - Jim
-1d20 - James
 1d20 - Jose
 1d20 - Franco
 1d20 - David
