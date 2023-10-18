@@ -19,7 +19,6 @@ class Initiative
 1d20 - Adam Leon
   DESIGN
   PRODUCT = <<-PRODUCT
-1d20 - Stephanie
 1d20 - Mary
 1d20 - Kim
 1d20 - Jen
@@ -36,7 +35,6 @@ class Initiative
 
   EVERYONE = <<-EVERYONE
 1d20 - Michael
-1d20 - Stephanie
 1d20 - Jack
 1d20 - Sara
 1d20 - Chris
