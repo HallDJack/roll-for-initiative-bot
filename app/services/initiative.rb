@@ -9,6 +9,7 @@ class Initiative
 1d20 - Nick
 1d20 - Preet
 1d20 - Sara
+1d20 - TJ
 1d20 - Wes
   DEV
   PLATFORM = <<-PLATFORM
@@ -53,6 +54,7 @@ class Initiative
 1d20 - Jose
 1d20 - Franco
 1d20 - David
+1d20 - TJ
   EVERYONE
 
   SOLO = { 'Everyone' => EVERYONE }
