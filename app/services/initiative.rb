@@ -22,7 +22,6 @@ class Initiative
   PRODUCT = <<-PRODUCT
 1d20 - Mary
 1d20 - Kim
-1d20 - Jen
 1d20 - Jared
   PRODUCT
   OTHER = <<-OTHER
@@ -47,7 +46,6 @@ class Initiative
 1d20 - Wes
 1d20 - Mary
 1d20 - Kim
-1d20 - Jen
 1d20 - Jared
 1d20 - Adam Leon
 1d20 - Jim
