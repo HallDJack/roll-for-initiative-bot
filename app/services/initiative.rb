@@ -5,7 +5,7 @@ class Initiative
 1d20 - E'lon
 1d20 - Franco
 1d20 - Harsh
-1d20 - Jose
+1d20 - Jose M
 1d20 - Nick
 1d20 - Preet
 1d20 - Sara
@@ -21,8 +21,9 @@ class Initiative
   DESIGN
   PRODUCT = <<-PRODUCT
 1d20 - Mary
-1d20 - Kim
 1d20 - Jared
+1d20 - Jose G
+1d20 - Adrian
   PRODUCT
   OTHER = <<-OTHER
 1d20 - Michael
@@ -45,14 +46,15 @@ class Initiative
 1d20 - Adam Glover
 1d20 - Wes
 1d20 - Mary
-1d20 - Kim
 1d20 - Jared
 1d20 - Adam Leon
 1d20 - Jim
-1d20 - Jose
+1d20 - Jose M
 1d20 - Franco
 1d20 - David
 1d20 - TJ
+1d20 - Jose G
+1d20 - Adrian
   EVERYONE
 
   SOLO = { 'Everyone' => EVERYONE }
