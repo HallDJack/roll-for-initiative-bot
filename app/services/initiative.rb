@@ -1,7 +1,6 @@
 class Initiative
 
   DEV = <<-DEV
-1d20 - David
 1d20 - E'lon
 1d20 - Franco
 1d20 - Harsh
@@ -51,7 +50,6 @@ class Initiative
 1d20 - Jim
 1d20 - Jose M
 1d20 - Franco
-1d20 - David
 1d20 - TJ
 1d20 - Jose G
 1d20 - Adrian
