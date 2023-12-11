@@ -23,6 +23,7 @@ class Initiative
 1d20 - Jared
 1d20 - Jose G
 1d20 - Adrian
+1d20 - Asghar
   PRODUCT
   OTHER = <<-OTHER
 1d20 - Michael
@@ -53,6 +54,7 @@ class Initiative
 1d20 - TJ
 1d20 - Jose G
 1d20 - Adrian
+1d20 - Asghar
   EVERYONE
 
   SOLO = { 'Everyone' => EVERYONE }
