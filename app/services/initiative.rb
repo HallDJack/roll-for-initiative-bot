@@ -28,7 +28,6 @@ class Initiative
   OTHER = <<-OTHER
 1d20 - Michael
 1d20 - Jack
-1d20 - Jim
 1d20 - Eftiar
   OTHER
   
@@ -48,7 +47,6 @@ class Initiative
 1d20 - Mary
 1d20 - Jared
 1d20 - Adam Leon
-1d20 - Jim
 1d20 - Jose M
 1d20 - Franco
 1d20 - TJ
