@@ -10,6 +10,8 @@ class Initiative
 1d20 - Sara
 1d20 - TJ
 1d20 - Wes
+1d20 - Chloe
+1d20 - Katie
   DEV
   PLATFORM = <<-PLATFORM
 1d20 - Adam Glover
@@ -53,6 +55,8 @@ class Initiative
 1d20 - Jose G
 1d20 - Adrian
 1d20 - Asghar
+1d20 - Chloe
+1d20 - Katie
   EVERYONE
 
   SOLO = { 'Everyone' => EVERYONE }
